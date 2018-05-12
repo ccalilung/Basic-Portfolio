@@ -1,4 +1,4 @@
-/* HTML tags, forms, input, images, links, lists */
+/* HTML tags, forms, input, images, links, lists, etc. */
 
 header {
     background: #fff;
@@ -91,6 +91,11 @@ img.row {
     margin-bottom: 20px;
 }
 
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
 /* ids */
 
@@ -215,8 +220,3 @@ p#copyright {
     z-index: 1;
 }
 
-.clearFix::after{
-    content: "";
-    display: block;
-    clear: both;
-}
