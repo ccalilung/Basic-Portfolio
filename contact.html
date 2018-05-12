@@ -1,58 +1,63 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
+    <title>Contact</title>
+</head>
 
-   
+<body>
     <header>
-            <div class="clearFix">
-                <div class="heading">Christian Calilung</div> 
-                <div id="box1"></div>
-                <div id="about"> <a href="index.html">About</a></div>    
-                <div class="break">|</div>
-                <div id="portfolio"> <a href="portfolio.html">Portfolio</a></div>  
-                <div class="break">|</div>
-                <div id="contact"> <a href="contact.html">Contact</a></div> </div>
-        
+        <div class="clearFix">
+            <div class="headContainer">
+                <div id="pgTitle">Christian Calilung</div>
+                    <ul id="navigation">
+                        <li><a href="index.html">About</a></li>
+                        <li class="pipe">|</li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li class="pipe">|</li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
             </div>
+        </div>
     </header>
-        <section id="squareBack">
-        <body>
-            <div id="box2"></div>
-            <section id="contactBoxA">
-            <h1 class="sectionHeading">Contact</h1>
-            <div id="box4"></div>
-            <div class="clearFix">
-         
+    <div id="background">
+        <div class="container">
+            <h1>Contact</h1>
             <form>
-               Name: <br/>
-               <input type="text" name="name"> 
-               <br/>
-               Email: <br/>
-               <input type="email" name="email">
-               <br/>
-               Message: <br/>
-               <textarea name="textBox"></textarea>
-               <!-- <input id="textBox" type="text" name="message"> -->
-               <br/>
-               <input id="submit" type="submit" name="submit">
-               <br/>
+                Name: <br/>
+                <input type="text" name="name"> 
+                <br/>
+                Email: <br/>
+                <input type="email" name="email">
+                <br/>
+                Message: <br/>
+                <textarea name="textBox"></textarea>
+                <!-- <input id="textBox" type="text" name="message"> -->
+                <br/>
+                <input id="submit" type="submit" name="submit">
+                <br/>
             </form>
-            </div>
-        </section>
-       
-            
-        </body>
-    </section>
-   <footer><div id="box5"></div>
-   <br/><br/>
-    <p><div id="foot">Copyright Christian Calilung &copy; <script type="text/javascript">
-        var today = new Date()
-        var year = today.getFullYear()
-        document.write(year)
-        </script> </div></p>
-</footer> 
+        </div>
+    </div>
+    <footer>
+        <br>
+        <br>
+        <br>
+        <p id="copyright">Copyright Christian Calilung &copy; 
+            <script>
+                var today = new Date()
+                var year = today.getFullYear()
+                document.write(year)
+            </script>
+        </p>
+        
+    </footer>
+
+
+
+
+
+
+</body>
 </html>
